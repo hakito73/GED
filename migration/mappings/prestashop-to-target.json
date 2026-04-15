@@ -1,0 +1,9 @@
+{
+  "ps_product.reference": "product_variant.sku",
+  "ps_product.ean13": "product.isbn_ean",
+  "ps_product.name": "product.title",
+  "ps_product.description_short": "product.summary",
+  "ps_product.description": "product.long_description",
+  "ps_category.name": "taxonomy_node.label",
+  "ps_category.link_rewrite": "taxonomy_node.slug"
+}

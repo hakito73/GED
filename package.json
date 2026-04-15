@@ -1,0 +1,20 @@
+{
+  "name": "excalibur-headless-monorepo",
+  "private": true,
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test",
+    "test:e2e": "pnpm --filter @apps/storefront test:e2e",
+    "seed:demo": "tsx scripts/seed-demo.ts",
+    "migration:run": "tsx migration/scripts/run-migration.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4",
+    "@types/node": "^24.3.0"
+  }
+}

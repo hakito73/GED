@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Batman: Year One",
+    "slug": "batman-year-one",
+    "isbn_ean": "9781401207526",
+    "publisher": "DC Comics",
+    "collection": "DC Essentiels",
+    "characters": ["Batman", "James Gordon"],
+    "price": 15.9,
+    "availability": "in_stock"
+  },
+  {
+    "title": "Watchmen",
+    "slug": "watchmen",
+    "isbn_ean": "9780930289232",
+    "publisher": "DC Comics",
+    "collection": "Deluxe",
+    "characters": ["Rorschach", "Dr Manhattan"],
+    "price": 25,
+    "availability": "pre_order"
+  }
+]

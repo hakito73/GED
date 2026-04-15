@@ -1,0 +1,11 @@
+{
+  "startedAt": "2026-04-15T22:27:01.692Z",
+  "source": "./migration/fixtures/prestashop_export",
+  "imported": {
+    "products": 2,
+    "categories": 3,
+    "customers": 1,
+    "orders": 1
+  },
+  "anomalies": []
+}
